@@ -15,6 +15,9 @@ How To Play:
 not yet configured
 
 Sources: tnf.ttf: https://freefontsfamily.com/times-new-roman-font-free/
+Credits to https://github.com/jyanln/15-466-f20-game4/commit/289c97fdb6e1b32a4ceecd69f1c5edcb7a671cd3 for only using one commit, as an example of how to structure the pipeline
+https://www.freetype.org/freetype2/docs/tutorial/step1.html for a useful tutorial on FreeType
+https://github.com/harfbuzz/harfbuzz-tutorial/blob/master/hello-harfbuzz-freetype.c for how to use harfbuzz with freetype
 
 This game was built with [NEST](NEST.md).
 
