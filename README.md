@@ -1,10 +1,10 @@
-# (TODO: your game's title)
+# The Road Not Taken
 
-Author: (TODO: your name)
+Author: Brad Zhang
 
-Design: (TODO: In two sentences or fewer, describe what is new and interesting about your game.)
+Design: Intended to be a 2D choice game, with many forks in the road. Some choices would give the player a minigame to complete.
 
-Text Drawing: (TODO: how does the text drawing in this game work? Is text precomputed? Rendered at runtime? What files or utilities are involved?)
+Text Drawing: Text drawing is computed at runtime. Each piece of text is run through harfbuzz, which shapes the text with Times New Roman font. FreeType is used to load the font. OpenGL drawing of font is not implemented (did not have time)
 
 Screen Shot:
 
@@ -12,9 +12,9 @@ Screen Shot:
 
 How To Play:
 
-(TODO: describe the controls and (if needed) goals/strategy.)
+not yet configured
 
-Sources: (TODO: list a source URL for any assets you did not create yourself. Make sure you have a license for the asset.)
+Sources: tnf.ttf: https://freefontsfamily.com/times-new-roman-font-free/
 
 This game was built with [NEST](NEST.md).
 
